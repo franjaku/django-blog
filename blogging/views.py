@@ -23,4 +23,4 @@ def list_view(request):
     # template = loader.get_template('blogging/list.html')
     # body = template.render(context)
     # return HttpResponse(body, content_type="text/html")
-    return render(request, 'list.html', context)
+    return render(request, 'blogging/list.html', context)
