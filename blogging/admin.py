@@ -15,9 +15,6 @@ class PostAdmin(admin.ModelAdmin):
 class CategoryAdmin(admin.ModelAdmin):
     exclude = ('posts', )
     readonly_fields = ('posts', )
-    # inlines = [
-    #     PostInline,
-    # ]
 
 
 admin.site.register(Category, CategoryAdmin)
