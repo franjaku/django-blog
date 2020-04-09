@@ -23,5 +23,6 @@ class CategoryAdmin(admin.ModelAdmin):
     #     list_return = ['<a href="/posts/{}"> {} </a>'.format(post.pk, post.title) for post in posts]
     #     return list_return
 
+
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Post, PostAdmin)
